@@ -1,1 +1,167 @@
-<div></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ijiomah.com</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+           margin: 0 0;
+        }
+        body{
+            background-color: #080202;
+        }
+        .head{
+            width: 100%;
+        }
+        .head,img{
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(24, 23, 23);
+            height: 110px;
+            position: sticky;
+            top: 0;
+            left: 0;
+        }
+        .head button{
+            margin-right: 5px;
+            margin-top: 35px;
+            height: 30px;
+            border: none;
+            background-color: #05aa63;
+            color: #080202;
+            font-weight: 600;
+            border-radius: 5px;
+        }
+        h1{
+            font-size: 50px;
+            line-height: 64px;
+            color: #05aa63;
+        }
+        h2{
+            font-size: 46px;
+            line-height: 54px;
+            color: #222;
+        }
+        h4{
+            font-size: 20px;
+            color: #0a0a0a;
+        }
+        h6{
+           font-weight: 700;
+           font-size: 12px;
+        }
+        p{
+            
+            color: #05aa63;
+            margin:15px 0 20px 0;
+        }
+        .prev{
+            background-image: url('PN.jpg');
+            width: 100%;
+            height: 90vh;
+            background-size: cover;
+            background-position: top 25% right 0;
+            padding: 0 80px;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            background-color:transparent;
+        }
+        .footer{
+            background-color: #080202;
+        }
+        .inner{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            padding-top: 10px;
+        }
+        .collection {
+            margin-bottom: 100px;
+            border-color: #05aa63;
+            background-color: #130e0e;
+            width: 200px;
+            height: 130px;
+            border-width: 1px;
+            transition: 0.6s ease;
+            border-radius: 5px;
+            box-shadow: #05aa63;
+        }
+        .collection a{
+            text-decoration: none;
+        }
+        #projects{
+            margin-top: 50px;
+        }
+        .collection:hover{
+            width: 300px;
+            height: 200px;
+            font-size: large;    
+        }
+        #contact{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: #080202;
+            background-color:#05aa63;
+            height: 200px;
+            font-weight: 600;
+            font-size: 20px;
+        }
+        .whatsapp{
+             padding-right: 50px;
+             font-size: 30px;
+        }
+        .github{
+            padding-right: 50px;
+            font-size:30px;
+        }
+        .linkdin{
+            font-size: 30px;
+        }
+        
+    </style>
+</head>
+<body>
+     <div class="head">
+            <img src="Preview.png" alt="logo">
+
+     </div>
+     <div class="prev">
+           <h1><i>Welcome to my corner of the web.</i></h1>
+           <h4>This portfolio showcases my projects,technical skills, and experience .<br>Take a look around if you would like to collaborate or learn more.</h4>
+           
+     </div>
+     <div class="footer">
+        <div class="inner">
+          <button class="collection" id="projects" onclick="window.open('project.html','_blank')">
+                <p>PROJECT</p>
+          </button>
+          <button class="collection" onclick="window.open('skills.html','_blank')">
+                <p>SKILLS</p>
+          </button>
+          <button class="collection" onclick="window.open('blog.html','_blank')">
+                <p>BLOG</p>
+          </button>
+        </div>
+        <div>
+            <div id="contact">
+                <p style="color: #080202;">CONTACT</p>
+              <div class="icons">
+                <a href="" class="whatsapp"><i class="fa fa-whatsapp" style="color: #080202;"></i></a>
+                <a href="https://www.linkedin.com/in/victor1230/" target="_blank" class="github"><i class="fa fa-linkedin-square" style="color:#080202;"></i></a>
+                <a href="https://github.com/ijiomahv" class="linkdin"><i class="fa fa-github-square" style="color: #080202;"></i></a>
+               </div> 
+            </div>
+        </div>
+     </div>
+     <script>
+          
+     </script>
+</body>
+</html>
